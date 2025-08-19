@@ -32,7 +32,18 @@ Clone this repository and install it in editable mode:
 
 ```bash
 git clone https://github.com/MukulGarg0097/Basic_ML_Project_Structure.git
-cd your_project
+cd Basic_ML_Project_Structure
+```
+Creating and activating Virtual Envirorment to separate the installation of all the packages.
+```bash
+conda create -n myenv python=3.11
+conda activate <file_path>/venv
+```
+
+#file_path      The path to the project folder
+
+This will run the setup.py file and install all the required packages and scan for the folder with __init__.py to create the packages to build.
+```bash
 pip install -e .
 ```
 
